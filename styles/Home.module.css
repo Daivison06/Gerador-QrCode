@@ -93,7 +93,6 @@
   background: transparent;
   border-top: solid 1px #000;
   bottom: 0;
-  cursor: pointer;
   display: block;
   left: 0;
   margin-top: 24px;
@@ -105,7 +104,10 @@
 
 .generator_link button{
   background: transparent;
+  box-sizing: border-box;
   border: none;
+  cursor: pointer;
   margin: 1rem;
+  padding: 12px;
   text-transform: uppercase;
 }
