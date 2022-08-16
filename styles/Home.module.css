@@ -1,0 +1,111 @@
+.container {
+  min-height: 100vh;
+}
+
+.main {
+  margin: auto;
+  max-width: 90%;
+  padding: 24px;
+  width: 100%;
+}
+
+.wrapper{
+  border: solid 1px #000;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header{
+  border: solid 1px #000;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.h1{
+  border-left: solid 1px #000;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+.form{
+  margin-bottom: 2rem;
+  padding: 12px;
+}
+
+.form_input{
+  background: #fff;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  border-radius: 0;
+  border: solid 1px black;
+  font-size: 1.12rem;
+  font-weight: 500;
+  outline: darkslateblue;
+  padding: 12px;
+  width: 100%;
+}
+
+.generator{
+  min-width: 400px;
+  padding: 1rem;
+}
+
+.generator_wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 200px;
+}
+
+.generator span{
+  display: block;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.generator_background, .generator_foreground{
+  margin-right: 16px;
+}
+
+.qrcode{
+  border-left: solid 1px #000;
+  line-height: 0;
+  position: relative;
+  z-index: 999;
+}
+
+.generator_input::-webkit-color-swatch-wrapper{
+  padding: 0;
+}
+
+.generator_input::-webkit-color-swatch{
+  border: none;
+}
+
+.generator_link{
+  background: transparent;
+  border-top: solid 1px #000;
+  bottom: 0;
+  cursor: pointer;
+  display: block;
+  left: 0;
+  margin-top: 24px;
+  padding: 0;
+  position: absolute;
+  text-decoration: underline;
+  width: 100%;
+}
+
+.generator_link button{
+  background: transparent;
+  border: none;
+  margin: 1rem;
+  text-transform: uppercase;
+}
