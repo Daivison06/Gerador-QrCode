@@ -27,7 +27,7 @@ const Home: NextPage = () => {
     setFrcolor(value);
   }
 
-  const downloadQRCode = () => {
+  const DownloadQRCode = () => {
     const canvas: any = document.getElementById("qr-gen");
     const pngUrl: any | null = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                 </div>
               </div>*/}
               <div className={styles.generator_link}>
-                <button onClick={downloadQRCode}>Download PNG</button>
+                <button onClick={DownloadQRCode}>Download PNG</button>
               </div>
             </div>
           </div>
